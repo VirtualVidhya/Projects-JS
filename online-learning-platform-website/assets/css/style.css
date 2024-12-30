@@ -297,7 +297,6 @@ body {
   margin-block-end: 40px;
 }
 
-
 /* #HEADER SECTION */
 
 .header .btn {
@@ -405,6 +404,8 @@ body {
   color: var(--kappel);
 }
 
+/* nav-bar menu mobile overlay */
+
 .overlay {
   position: fixed;
   inset: 0;
@@ -419,7 +420,6 @@ body {
   opacity: 1;
   pointer-events: all;
 }
-
 
 /* #HERO SECTION */
 
@@ -459,7 +459,6 @@ body {
   border-top-left-radius: 50px;
   border-bottom-right-radius: 90px;
 }
-
 
 /* #CATEGORY SECTION */
 
@@ -508,7 +507,6 @@ body {
   margin-inline: auto;
   border-radius: var(--radius-5);
 }
-
 
 /* #ABOUT SECTION */
 
@@ -577,7 +575,6 @@ body {
   color: var(--eerie-black-1);
   font-family: var(--ff-league_spartan);
 }
-
 
 /* #COURSE SECTION */
 
@@ -712,7 +709,6 @@ body {
   margin-block-start: 60px;
 }
 
-
 /* #VIDEO SECTION */
 
 .video {
@@ -755,7 +751,6 @@ body {
   background-color: var(--black_30);
 }
 
-
 /* #STATS SECTION */
 
 .stats-card {
@@ -778,7 +773,6 @@ body {
   color: var(--eerie-black-1);
   text-transform: uppercase;
 }
-
 
 /* #BLOG SECTION */
 
@@ -877,7 +871,6 @@ body {
   --ionicon-stroke-width: 40px;
 }
 
-
 /* #FOOTER SECTION */
 
 .footer {
@@ -964,7 +957,6 @@ body {
   display: inline-block;
 }
 
-
 /* #BACK TO TOP */
 
 .back-top-btn {
@@ -987,7 +979,6 @@ body {
   opacity: 1;
   pointer-events: all;
 }
-
 
 /* #MEDIA QUERIES */
 
