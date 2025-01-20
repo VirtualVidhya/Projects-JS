@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BerryBlues - Comfortably Yours</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- ION-ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="navbar-header">
+      <div id="main-pages-header">
+        <a href="#" id="home-header" class="links-header">
+          <ion-icon name="home" class="icons-header"></ion-icon>
+        </a>
+
+        <a href="#" class="links-header gender-collection-nav">
+          <p>MEN</p>
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </a>
+
+        <a href="#" class="links-header gender-collection-nav">
+          <p>WOMEN</p>
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </a>
+      </div>
+
+      <img
+        src="assets/logos/logo-black.svg"
+        alt="berryblues-logo"
+        id="logo-header"
+      />
+
+      <div id="action-btns-header">
+        <a href="#" class="links-header">
+          <ion-icon name="heart-outline" class="icons-header"></ion-icon>
+          <!-- <p>Wishlists</p> -->
+        </a>
+        <a href="#" class="links-header">
+          <ion-icon name="cart" class="icons-header"></ion-icon>
+          <!-- <p>Cart</p> -->
+        </a>
+        <a href="#" class="links-header">
+          <ion-icon name="person" class="icons-header"></ion-icon>
+          <!-- <p>Account</p> -->
+        </a>
+      </div>
+    </header>
+
+    <!-- FRONT-COVER -->
+    <div id="main-cover">
+      <img
+        src="assets/images/home-banner-2.webp"
+        alt="cover-image"
+        id="main-cover-img"
+      />
+      <div id="main-banner-overlay">
+        <p id="saleinfo1-main-banner">SPECIAL OFFER FASHION SALE</p>
+        <p class="saleinfo2-main-banner">HOTTEST</p>
+        <p class="saleinfo2-main-banner">COLLECTIONS</p>
+
+        <button id="shopbtn-main-banner" class="btn">SHOP NOW</button>
+      </div>
+    </div>
+
+    <div id="gender-collection-container">
+      <div class="gender-collection-cover">
+        <div class="img-holder-gender-collection" id="men-img-holder">
+          <!-- <img src="assets/images/men-collection-2.webp" alt="men-collection-banner" class="gender-collection-img"> -->
+        </div>
+
+        <div class="gender-collection-info">
+          <p class="tag-gender-collection">MEN'S COLLECTION</p>
+          <button class="shopbtn-gender-collection">
+            SHOP NOW <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+      <div class="gender-collection-cover">
+        <div class="img-holder-gender-collection" id="women-img-holder"></div>
+
+        <div class="gender-collection-info">
+          <p class="tag-gender-collection">WOMEN'S COLLECTION</p>
+          <button class="shopbtn-gender-collection">
+            SHOP NOW <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div id="products-section">
+      <h2>OUR PRODUCTS</h2>
+      <p>
+        Consequat magna massa vel suspendisse morbi aliquam faucibus ligula ante
+        ipsum ac nulla.
+      </p>
+
+      <div id="product-grid">
+        <!-- <a class="product-card">
+          <div class="product-img-holder">
+              <div class="product-img"></div>
+          </div>
+          <p class="product-name">
+              ${product.name}
+          </p>
+          <p class="product-desc">${product.description}</p>
+          <p class="product-price">rs.${product.price}</p>
+        </a> -->
+      </div>
+
+      <button id="viewbtn-product" class="btn">VIEW ALL</button>
+    </div>
+
+    <!-- NEWS-LETTER -->
+    <div id="newsletter-section">
+      <div id="info-newsletter">
+        <h3>BERRY BLUES Newsletter</h3>
+        <p>
+          Get the latest news from the <b>BERRY BLUES</b> Online Store regarding
+          new products, exclusive specials, lifestyle and fashion trends.
+        </p>
+        <button>SUBSCRIBE NOW</button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div id="sitemap-footer">
+        <div id="company-info-footer">
+          <img src="assets/logos/logo-white.svg" alt="berryblues-logo" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since .
+          </p>
+          <a href="#" id="store-locator-footer">
+            <ion-icon name="location-outline"></ion-icon>
+            <p>Store Locator</p>
+          </a>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">INFORMATION</h3>
+          <ul class="footer-list">
+            <li><a href="#">Hot Sale</a></li>
+            <li><a href="#">Women's Collection</a></li>
+            <li><a href="#">Men's Collection</a></li>
+            <li><a href="#">Kids' Collection</a></li>
+            <li><a href="#">Featured Products</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">USEFUL LINKS</h3>
+          <ul class="footer-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div id="contact-footer">
+          <div>
+            <h3 class="footer-heading">GET IN TOUCH</h3>
+            <a href="#" class="contact-subsec-footer">
+              <ion-icon name="call"></ion-icon>
+              <p>+91-90745-345XX</p>
+            </a>
+            <a href="#" class="contact-subsec-footer">
+              <ion-icon name="mail"></ion-icon>
+              <p>info@blueberry.xx</p>
+            </a>
+          </div>
+          <div>
+            <h3 class="footer-heading">OPENING HOURS</h3>
+            <div class="contact-subsec-footer">
+              <ion-icon name="time"></ion-icon>
+              <p>Monday-Saturday<br />10 AM - 9 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="copyright-bar">
+        <p>Copyright© 2025 BerryBlues Retail Pvt. Ltd.</p>
+        <div id="social-icons-footer">
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="mail"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="landing-page-products-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Men Joggers",
+      "description": "Premium Dry-Fit",
+      "price": 999,
+      "image": "assets/images/products/men/men-product-1.webp"
+    },
+    {
+      "id": 2,
+      "name": "Women T-shirt",
+      "description": "Printed round-neck half-sleeve",
+      "price": 699,
+      "image": "assets/images/products/women/women-product-1.webp"
+    },
+    {
+      "id": 3,
+      "name": "Men Trousers",
+      "description": "Premium cotton chinos",
+      "price": 1199,
+      "image": "assets/images/products/men/men-product-2.webp"
+    },
+    {
+      "id": 4,
+      "name": "Women Night-wear",
+      "description": "Printed co-ord set - skyblue",
+      "price": 799,
+      "image": "assets/images/products/women/women-product-2.webp"
+    },
+    {
+      "id": 5,
+      "name": "Men Shirt",
+      "description": "Basic checks cotton full-sleeve",
+      "price": 599,
+      "image": "assets/images/products/men/men-product-3.webp"
+    },
+    {
+      "id": 6,
+      "name": "Women Pants",
+      "description": "Classic all-season comfortable pants",
+      "price": 1299,
+      "image": "assets/images/products/women/women-product-3.webp"
+    },
+    {
+      "id": 7,
+      "name": "Men Athleisure",
+      "description": "Round neck t-shirt - grey",
+      "price": 499,
+      "image": "assets/images/products/men/men-product-4.webp"
+    },
+    {
+      "id": 8,
+      "name": "Women Shorts",
+      "description": "Regular fit shorts with side pockets - black",
+      "price": 799,
+      "image": "assets/images/products/women/women-product-4.webp"
+    }
+  ]
+}
