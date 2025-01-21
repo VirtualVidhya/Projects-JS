@@ -33,6 +33,10 @@ body {
   text-decoration: none;
 }
 
+.links-header:hover {
+  color: var(--primary-btnhover-color);
+}
+
 .icons-header {
   width: 30px;
   height: 30px;
@@ -412,6 +416,10 @@ body {
   color: var(--secondary-font-color);
 }
 
+#store-locator-footer:hover {
+  color: var(--primary-btnhover-color);
+}
+
 /* page-links */
 
 .footer-list {
@@ -454,6 +462,10 @@ body {
   margin-bottom: 10px;
 }
 
+.contact-links-footer:hover {
+  color: var(--primary-btnhover-color);
+}
+
 /* COPYRIGHTS-SECTION */
 
 #copyright-bar {
@@ -475,6 +487,10 @@ body {
 #social-icons-footer > a {
   text-decoration: none;
   color: var(--primary-font-color);
+}
+
+#social-icons-footer > a:hover {
+  color: var(--primary-btnhover-color);
 }
 
 #social-icons-footer > a > ion-icon {
