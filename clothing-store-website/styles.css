@@ -322,6 +322,41 @@ body {
   background-color: var(--light-highlight-color);
 }
 
+/* #FEATURES# */
+#feature-section {
+  width: 70%;
+  margin: 0px auto 75px;
+  border: solid 1px var(--primary-font-color);
+}
+
+#feature-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.feature-item {
+  width: 100%;
+  /* flex: 1 0 0%; */
+}
+
+.feature-item > div {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-item > div > ion-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#middle-feature-item {
+  border-left: solid 1px var(--primary-font-color);
+  border-right: solid 1px var(--primary-font-color);
+}
+
 /* #NEWS-LETTER# */
 
 #newsletter-section {
