@@ -71,6 +71,50 @@ body {
   align-items: center;
 }
 
+/* gender-collection-menus */
+#gender-collection-menu-container {
+  position: relative;
+}
+
+#gender-collection-menu-container:hover > #gender-collection-menu {
+  display: block;
+}
+
+#gender-collection-menu {
+  position: absolute;
+  top: 60px;
+  left: -5px;
+
+  background-color: var(--secondary-bg-color);
+  border-radius: 7.5px;
+  padding: 10px 30px;
+  min-width: max-content;
+
+  font-size: 20px;
+
+  z-index: 5;
+
+  display: none;
+}
+
+#gender-collection-menu ul {
+  padding-left: 0px;
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#gender-collection-menu a {
+  color: var(--primary-font-color);
+  text-decoration: none;
+}
+
+#gender-collection-menu a:hover {
+  color: var(--light-highlight-color);
+}
+
 /* logo */
 
 #logo-header {
