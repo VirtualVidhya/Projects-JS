@@ -108,24 +108,38 @@ body {
 #main-cover {
   width: 100%;
   text-align: center;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 25px;
+
+  display: grid;
 }
 
 #main-cover-img {
   height: auto;
   width: 100%;
+
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
 }
 
 #main-banner-overlay {
-  position: absolute;
-  top: 25%;
-  left: 5%;
+  /* position: absolute; */
+  /* top: 25%; */
+  /* left: 5%; */
   color: var(--secondary-font-color);
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: start;
+
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 2;
+
+  align-self: center;
+  justify-self: flex-start;
+  padding-left: 5%;
 }
 
 #saleinfo1-main-banner {
@@ -164,8 +178,10 @@ body {
 
 .gender-collection-cover {
   width: 50%;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
+
+  display: grid;
 }
 
 .img-holder-gender-collection {
@@ -177,6 +193,10 @@ body {
   background-position: center;
 
   transition: all 0.65s ease-in-out;
+
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
 }
 
 .img-holder-gender-collection:hover {
@@ -192,14 +212,22 @@ body {
 }
 
 .gender-collection-info {
-  position: absolute;
-  top: 65%;
-  left: 25%;
+  /* position: absolute; */
+  /* top: 65%; */
+  /* left: 25%; */
   color: var(--secondary-font-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  grid-column: 1;
+  grid-row: 1;
+
+  align-self: flex-end;
+  justify-self: center;
+  padding-bottom: 5%;
+  z-index: 2;
 }
 
 .tag-gender-collection {
@@ -368,16 +396,22 @@ body {
   background-size: cover;
   background-position: center;
 
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 #info-newsletter {
-  position: absolute;
-  right: 15%;
-  top: 25%;
+  /* position: absolute; */
+  /* right: 10%; */
+  /* top: 25%; */
   width: 30%;
   background-color: white;
   padding: 20px;
+
+  margin-right: 5%;
+  z-index: 2;
 
   display: flex;
   flex-direction: column;
