@@ -5,7 +5,7 @@
       "name": "Men Joggers",
       "description": "Premium Dry-Fit",
       "price": 999,
-      "image": "assets/images/products/men/men-product-1.webp",
+      "image": "../../assets/images/products/men/men-product-1.webp",
       "category": "pants",
       "color": "grey"
     },
@@ -14,7 +14,7 @@
       "name": "Men Trousers",
       "description": "Premium cotton chinos",
       "price": 1199,
-      "image": "assets/images/products/men/men-product-2.webp",
+      "image": "../../assets/images/products/men/men-product-2.webp",
       "category": "pants",
       "color": "grey"
     },
@@ -23,7 +23,7 @@
       "name": "Men Shirt",
       "description": "Basic checks cotton full-sleeve",
       "price": 599,
-      "image": "assets/images/products/men/men-product-3.webp",
+      "image": "../../assets/images/products/men/men-product-3.webp",
       "category": "shirts",
       "color": "black"
     },
@@ -32,7 +32,7 @@
       "name": "Men Athleisure",
       "description": "Round neck t-shirt - grey",
       "price": 499,
-      "image": "assets/images/products/men/men-product-4.webp",
+      "image": "../../assets/images/products/men/men-product-4.webp",
       "category": "t-shirts",
       "color": "grey"
     },
@@ -41,7 +41,7 @@
       "name": "Men Athleisure",
       "description": "Round neck t-shirt - grey",
       "price": 499,
-      "image": "assets/images/products/men/men-product-4.webp",
+      "image": "../../assets/images/products/men/men-product-4.webp",
       "category": "t-shirts",
       "color": "grey"
     },
@@ -50,7 +50,7 @@
       "name": "Men Shirt",
       "description": "Basic checks cotton full-sleeve",
       "price": 599,
-      "image": "assets/images/products/men/men-product-3.webp",
+      "image": "../../assets/images/products/men/men-product-3.webp",
       "category": "shirts",
       "color": "black"
     },
@@ -59,7 +59,7 @@
       "name": "Men Trousers",
       "description": "Premium cotton chinos",
       "price": 1199,
-      "image": "assets/images/products/men/men-product-2.webp",
+      "image": "../../assets/images/products/men/men-product-2.webp",
       "category": "pants",
       "color": "grey"
     },
@@ -68,7 +68,7 @@
       "name": "Men Joggers",
       "description": "Premium Dry-Fit",
       "price": 999,
-      "image": "assets/images/products/men/men-product-1.webp",
+      "image": "../../assets/images/products/men/men-product-1.webp",
       "category": "pants",
       "color": "grey"
     }
