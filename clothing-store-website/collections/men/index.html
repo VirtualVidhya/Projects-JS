@@ -3,19 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BerryBlues - Comfortably Yours</title>
+    <title>Men's Collections | BerryBlues - Comfortably Yours</title>
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="/clothing-store-website/assets/styles/fonts.css" />
-    <link rel="stylesheet" href="/clothing-store-website/assets/styles/global.css" />
+    <link
+      rel="stylesheet"
+      href="/clothing-store-website/assets/styles/fonts.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/clothing-store-website/assets/styles/global.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/clothing-store-website/assets/styles/men-collection.css"
+    />
 
     <!-- FAVICONS -->
-    <link rel="icon" type="image/png" href="/clothing-store-website/assets/favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/clothing-store-website/assets/favicons/favicon.svg" />
-    <link rel="shortcut icon" href="/clothing-store-website/assets/favicons/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/clothing-store-website/assets/favicons/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/clothing-store-website/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/clothing-store-website/assets/favicons/favicon.svg"
+    />
+    <link
+      rel="shortcut icon"
+      href="/clothing-store-website/assets/favicons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/clothing-store-website/assets/favicons/apple-touch-icon.png"
+    />
     <meta name="apple-mobile-web-app-title" content="BerryBlue" />
-    <link rel="manifest" href="/clothing-store-website/assets/favicons/site.webmanifest" />
+    <link
+      rel="manifest"
+      href="/clothing-store-website/assets/favicons/site.webmanifest"
+    />
 
     <!-- ION-ICONS -->
     <script
@@ -40,7 +69,7 @@
             <p>MEN</p>
             <ion-icon name="chevron-down-outline"></ion-icon>
           </a>
-          
+
           <div id="gender-collection-menu">
             <ul>
               <li><a href="#">T-Shirts</a></li>
@@ -103,17 +132,16 @@
       />
       <div id="main-banner-overlay">
         <p id="saleinfo1-main-banner">SPECIAL OFFER FASHION SALE</p>
-        <p class="saleinfo2-main-banner">HOTTEST</p>
+        <p class="saleinfo2-main-banner">HOTTEST MEN'S</p>
         <p class="saleinfo2-main-banner">COLLECTIONS</p>
 
         <button id="shopbtn-main-banner" class="btn">SHOP NOW</button>
       </div>
     </div>
 
-    <div id="gender-collection-container">
-      <a href="/clothing-store-website/collections/men/index.html" class="gender-collection-cover">
+    <!-- <div id="gender-collection-container">
+      <div class="gender-collection-cover">
         <div class="img-holder-gender-collection" id="men-img-holder">
-          <!-- <img src="assets/images/men-collection-2.webp" alt="men-collection-banner" class="gender-collection-img"> -->
         </div>
 
         <div class="gender-collection-info">
@@ -122,9 +150,9 @@
             SHOP NOW <ion-icon name="arrow-forward-outline"></ion-icon>
           </button>
         </div>
-      </a>
+      </div>
 
-      <a href="/clothing-store-website/collections/women/index.html" class="gender-collection-cover">
+      <div class="gender-collection-cover">
         <div class="img-holder-gender-collection" id="women-img-holder"></div>
 
         <div class="gender-collection-info">
@@ -133,16 +161,63 @@
             SHOP NOW <ion-icon name="arrow-forward-outline"></ion-icon>
           </button>
         </div>
-      </a>
-    </div>
+      </div>
+    </div> -->
 
     <!-- PRODUCTS -->
     <div id="products-section">
-      <h2>OUR PRODUCTS</h2>
+      <h2>MEN'S PRODUCTS</h2>
       <p>
         Consequat magna massa vel suspendisse morbi aliquam faucibus ligula ante
         ipsum ac nulla.
       </p>
+
+      <!-- FILTER SECTION -->
+      <div id="filter-section">
+        <h4>Filters</h4>
+
+        <!-- CATEGORY FILTER -->
+        <div>
+          <label for="category-filter">Category:</label>
+          <select id="category-filter">
+            <option value="all">All</option>
+            <option value="shirts">Shirts</option>
+            <option value="t-shirts">T-shirts</option>
+            <option value="pants">Pants</option>
+            <option value="shorts">Shorts</option>
+          </select>
+        </div>
+
+        <!-- COLOR FILTER -->
+        <div>
+          <label>Color:</label>
+          <input type="checkbox" name="color" value="black" id="color-black" />
+          Black
+          <input type="checkbox" name="color" value="white" id="color-white" />
+          White
+          <input type="checkbox" name="color" value="grey" id="color-grey" />
+          Grey
+          <input type="checkbox" name="color" value="blue" id="color-blue" />
+          Blue
+          <input type="checkbox" name="color" value="red" id="color-red" />
+          Red
+        </div>
+
+        <!-- PRICE FILTER -->
+        <div>
+          <label>Price Range:</label>
+          <input type="radio" name="price" value="0-1000" id="price-1" /> 0 -
+          1000 Rs.
+          <input type="radio" name="price" value="1001-2000" id="price-2" />
+          1001 - 2000 Rs.
+          <input type="radio" name="price" value="2001-3000" id="price-3" />
+          2001 - 3000 Rs.
+          <input type="radio" name="price" value="all" id="price-all" checked />
+          All
+        </div>
+
+        <button id="apply-filters-btn">Apply Filters</button>
+      </div>
 
       <div id="product-grid">
         <!-- <a class="product-card">
@@ -202,7 +277,10 @@
     <footer>
       <div id="sitemap-footer">
         <div id="company-info-footer">
-          <img src="assets/logos/logo-white.svg" alt="berryblues-logo" />
+          <img
+            src="/clothing-store-website/assets/logos/logo-white.svg"
+            alt="berryblues-logo"
+          />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -274,6 +352,6 @@
       </div>
     </footer>
 
-    <script src="/clothing-store-website/scripts/landing-page-products-script.js"></script>
+    <script src="/clothing-store-website/scripts/men-collection-products-script.js"></script>
   </body>
 </html>

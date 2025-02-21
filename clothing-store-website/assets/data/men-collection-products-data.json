@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Men Joggers",
+      "description": "Premium Dry-Fit",
+      "price": 999,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-1.webp",
+      "category": "pants",
+      "color": "grey"
+    },
+    {
+      "id": 2,
+      "name": "Men Trousers",
+      "description": "Premium cotton chinos",
+      "price": 1199,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-2.webp",
+      "category": "pants",
+      "color": "grey"
+    },
+    {
+      "id": 3,
+      "name": "Men Shirt",
+      "description": "Basic checks cotton full-sleeve",
+      "price": 599,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-3.webp",
+      "category": "shirts",
+      "color": "black"
+    },
+    {
+      "id": 4,
+      "name": "Men Athleisure",
+      "description": "Round neck t-shirt - grey",
+      "price": 499,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-4.webp",
+      "category": "t-shirts",
+      "color": "grey"
+    },
+    {
+      "id": 5,
+      "name": "Men Athleisure",
+      "description": "Round neck t-shirt - grey",
+      "price": 499,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-4.webp",
+      "category": "t-shirts",
+      "color": "grey"
+    },
+    {
+      "id": 6,
+      "name": "Men Shirt",
+      "description": "Basic checks cotton full-sleeve",
+      "price": 599,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-3.webp",
+      "category": "shirts",
+      "color": "black"
+    },
+    {
+      "id": 7,
+      "name": "Men Trousers",
+      "description": "Premium cotton chinos",
+      "price": 1199,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-2.webp",
+      "category": "pants",
+      "color": "grey"
+    },
+    {
+      "id": 8,
+      "name": "Men Joggers",
+      "description": "Premium Dry-Fit",
+      "price": 999,
+      "image": "/clothing-store-website/assets/images/products/men/men-product-1.webp",
+      "category": "pants",
+      "color": "grey"
+    }
+  ]
+}

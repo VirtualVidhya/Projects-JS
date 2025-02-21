@@ -1,0 +1,39 @@
+:root {
+  --primary-bg-color: #282828;
+  --secondary-bg-color: #ffffff;
+
+  --primary-font-color: #2b2b2b;
+  --secondary-font-color: #ffffff;
+
+  --dark-highlight-color: #282828;
+  --light-highlight-color: #4b4b4b;
+
+  --primary-btnhover-color: #747474;
+}
+
+#products-section h4 {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 20px;
+}
+
+#filter-section {
+  padding: 0px 20px 20px;
+  margin-bottom: 50px;
+  border: solid 1px var(--primary-font-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+#filter-section h4 {
+    text-align: center;
+}
+
+#apply-filters-btn {
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
