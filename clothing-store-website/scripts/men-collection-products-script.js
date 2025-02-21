@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let allProducts = [];
 
   // Fetch Products from JSON
-  fetch("/clothing-store-website/assets/data/men-collection-products-data.json")
+  fetch("assets/data/men-collection-products-data.json")
     .then((response) => response.json())
     .then((data) => {
       allProducts = data.products; // Store all products globally

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const productsContainer = document.getElementById("product-grid");
 
-  fetch("/clothing-store-website/assets/data/landing-page-products-data.json")
+  fetch("assets/data/landing-page-products-data.json")
     .then((response) => response.json())
     .then((data) => {
       const productsHTML = data.products
